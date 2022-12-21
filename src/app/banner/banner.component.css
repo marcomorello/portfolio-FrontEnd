@@ -1,0 +1,42 @@
+.banner {
+  margin-top: 70px;
+  max-width: 100vw;
+  max-height: 300px;
+  overflow: hidden;
+  z-index: 0;
+  position: relative;
+}
+
+.banner > img {
+  position: relative;
+  bottom: 600px;
+}
+
+.foto-perfil {
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid rgba(52, 67, 94, 0.5);
+}
+.container {
+  position: relative;
+  bottom: 80px;
+  display: flex;
+}
+.nombre {
+  position: relative;
+  top: 40px;
+  left: 10px;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2)
+}
+h2 {
+  color: #f8f9fa;
+}
+@media (max-width: 400px) {
+.container{
+  display: block;
+}
+
+h2, h3 {
+  color: #000000;
+} 
+}
