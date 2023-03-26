@@ -5,6 +5,7 @@
     <img src="../../assets/linkedin.png" alt="Enlace a Linkedin"/></a>
     <a href="https://github.com/marcomorello">
     <img src="../../assets/github.png" alt="Enlace a Github" class="ms-1"/></a>
-    <button type="button" class="btn btn-dark ms-1">Log in</button>
+    <a href="/login"><button type="button" class="btn btn-dark ms-1" (click)="login()" *ngIf="!isLogged">Log in</button></a>
+    <a href=""><button type="button" class="btn btn-dark ms-1" (click)="onLogOut()" *ngIf="isLogged">Log out</button></a>
   </div>
 </header>
